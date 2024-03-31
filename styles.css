@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;/*para rolar devagar no link*/}
+body{
+    
+    background-color: rgb(176, 138, 211);
+}
+input{
+    text-align: center;
+    margin: 3% 25%;
+    padding: 2rem;
+    width: 50%;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #330033;
+    background-color: rgb(240, 229, 240);
+}
+input:hover{
+    border: 0.3rem solid  #330033;
+}
+input:focus{
+    border: 0.4rem solid  #330033;
+    outline: none;
+}
+button{
+    margin: 3% 25%;
+    padding: 1rem;
+    width: 50%;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #330033;
+    background-color: rgb(240, 229, 240);
+
+}
+button:hover{
+    background-color:#330033;
+    color: rgb(239, 207, 239);
+}
+.ok {
+    margin: 3% 20%;
+    padding: 1rem;
+    width: 60%;
+    background-color: aliceblue;
+    padding: 1.5rem;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(11, 186, 11);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.erro {
+    margin: 3% 20%;
+    padding: 1rem;
+    width: 60%;
+    background-color: aliceblue;
+    padding: 1rem;
+    font-size: 3rem;
+    color: rgb(255, 7, 7);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    margin-top: 10%;
+    font-size: 3rem;
+    text-align: center;
+}
